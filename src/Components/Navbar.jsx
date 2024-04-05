@@ -4,6 +4,7 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
+import curriculo from '../data/caianno.dev@gmail.com.pdf'
 
 
 
@@ -105,7 +106,8 @@ const Navbar = () => {
                 <li className='w-[160px] h-[60px] flex justify-between items-center bg-red-400 ml-[-100px] duration-300 hover:ml-[-10px]'>
                     <a 
                         className='flex justify-between font-bold items-center w-full text-white' 
-                        href="/">
+                        href={curriculo} target='_blank'
+                        download={curriculo}>
                         Currículo <BsFillPersonLinesFill size={30}/>
                     </a>
                 </li>
