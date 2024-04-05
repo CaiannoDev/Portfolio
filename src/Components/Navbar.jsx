@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from '../assets/logo.png'
+import Logo from '../assets/logo-favicon.svg'
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className='text-gray-300 fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#08192f]'>
         
       <div>
-        <img src={Logo} alt="" style={{width:'50px'}} />
+        <img  alt="" style={{width:'50px'}} />
       </div>
 
 
